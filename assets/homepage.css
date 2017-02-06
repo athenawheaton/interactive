@@ -1,0 +1,31 @@
+body{
+			background: #CCB7A5;
+			margin: 50px;
+		}
+		h1, h2, h3, h4, h5, h6{
+			font-weight: normal;
+			margin-bottom: 0px;
+		}
+		h1, h2{
+			font-family: Tahoma, Geneva, sans-serif;
+			color:#8E1342;
+		}
+		h1{
+			text-decoration: underline;
+		}
+		ul{
+			margin: 0;
+		}
+		p{
+			font-family: Tahoma, Geneva, sans-serif;
+			margin: 0;
+		}
+		a{
+			text-decoration: none;
+		}
+		a:hover{
+			color: green;
+		}
+		a:visited{
+			color: gray;
+		}
