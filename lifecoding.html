@@ -1,0 +1,248 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>life</title>
+
+<style type="text/css">
+	.canvas{
+		position: absolute;
+		background: #F9E1C0;
+		width:600px;
+		height:600px;
+	}
+
+	#mirror{
+		position: absolute;
+		background: gray;
+		width: 470px;
+		height: 100px;
+		webkit-transform: skew(-50deg);
+	   	moz-transform: skew(-50deg);
+	    transform: skew(-50deg);
+	    bottom: 10px;
+	    left: 70px;
+	}
+
+	#orb{
+		position: absolute;
+		background: white;
+		width: 300px;
+		height: 300px;
+		border-radius: 150px;
+		left: 50px;
+		bottom: 100px;
+	}
+
+	#orange1{
+		position: absolute;
+		background: #EF8F2F;
+		width: 90px;
+		height: 80px;
+		border-radius: 40px;
+		bottom: 80px;
+		left: 50px;
+	}
+
+	#orange2{
+		position: absolute;
+		background: #FFB550;
+		width: 70px;
+		height: 60px;
+		border-radius: 30px;
+		bottom: 70px;
+		left: 90px;
+	}
+
+	#squash{
+		position: absolute;
+		background: #EAC096;
+		height: 100px;
+		width: 200px;
+		border-radius: 50px;
+		bottom: 80px;
+		left: 180px;
+	}
+
+	.vase{
+		position: absolute;
+		background: #F7F2EB;
+		height: 300px;
+		width: 100px;
+		bottom: 50px;
+		left: 350px;
+		opacity: .8;
+	}
+
+		.vase #water{
+			position: absolute;
+			background: lightgray;
+			opacity: .3;
+			height: 150px;
+			width: 100px;
+			bottom: 0px;
+			left: 0px;
+		}
+
+		.vase #stem1{
+			position: absolute;
+			background: green;
+			height: 350px;
+			width: 8px;
+			bottom: 0px;
+			left: 30px;
+			-ms-transform: rotate(1deg);
+			-webkit-transform: rotate(1deg);
+	    	transform: rotate(1deg);
+		}
+
+		.vase #stem2{
+			position: absolute;
+			background: green;
+			height: 350px;
+			width: 8px;
+			bottom: 0px;
+			left: 40px;
+			-ms-transform: rotate(7deg);
+			-webkit-transform: rotate(7deg);
+	    	transform: rotate(7deg);
+		}
+
+		.vase #stem3{
+			position: absolute;
+			background: green;
+			height: 350px;
+			width: 8px;
+			bottom: 0px;
+			left: 50px;
+			-ms-transform: rotate(10deg);
+			-webkit-transform: rotate(10deg);
+	    	transform: rotate(10deg);
+		}
+
+		.vase #stem4{
+			position: absolute;
+			background: green;
+			height: 350px;
+			width: 8px;
+			bottom: 0px;
+			left: 60px;
+			-ms-transform: rotate(7deg);
+			-webkit-transform: rotate(7deg);
+	    	transform: rotate(7deg);
+		}
+
+		.vase #stem5{
+			position: absolute;
+			background: green;
+			height: 350px;
+			width: 8px;
+			bottom: -3px;
+			left: 50px;
+			-ms-transform: rotate(15deg);
+			-webkit-transform: rotate(15deg);
+	    	transform: rotate(15deg);
+		}
+
+
+		.vase #flower1{
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-left: 30px solid transparent;
+			border-right: 30px solid transparent;
+			border-top: 60px solid yellow;
+			bottom: 340px;
+			left: 8px;
+			-ms-transform: rotate(4deg);
+			-webkit-transform: rotate(4deg);
+	    	transform: rotate(4deg);
+		}
+
+		.vase #flower2{
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-left: 30px solid transparent;
+			border-right: 30px solid transparent;
+			border-top: 60px solid yellow;
+			bottom: 340px;
+			left: 40px;
+			-ms-transform: rotate(8deg);
+			-webkit-transform: rotate(8deg);
+	    	transform: rotate(8deg);
+		}
+
+		.vase #flower3{
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-left: 30px solid transparent;
+			border-right: 30px solid transparent;
+			border-top: 60px solid yellow;
+			bottom: 340px;
+			left: 70px;
+			-ms-transform: rotate(30deg);
+			-webkit-transform: rotate(30deg);
+	    	transform: rotate(30deg);
+		}
+
+		.vase #flower4{
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-left: 30px solid transparent;
+			border-right: 30px solid transparent;
+			border-top: 60px solid yellow;
+			bottom: 315px;
+			left: 95px;
+			-ms-transform: rotate(80deg);
+			-webkit-transform: rotate(80deg);
+	    	transform: rotate(80deg);
+		}
+	#orange3{
+		position: absolute;
+		background: #FFB550;
+		width: 70px;
+		height: 60px;
+		border-radius: 30px;
+		bottom: 70px;
+		left: 470px;
+	}
+
+
+
+
+</style>
+</head>
+
+
+<body>
+	<div class="canvas">
+	<div id="mirror"></div>
+		<div id="orb"></div>
+
+		<div id="squash"></div>
+
+		<div id="orange1"></div>
+		<div id="orange2"></div>
+		<div id="orange3"></div>
+
+		<div class="vase">
+
+			<div id="stem1"></div>
+			<div id="stem2"></div>
+			<div id="stem3"></div>
+			<div id="stem4"></div>
+			<div id="stem5"></div>
+
+			<div id="flower1"></div>
+			<div id="flower2"></div>
+			<div id="flower3"></div>
+			<div id="flower4"></div>
+
+			<div id="water"></div>
+		</div>
+	</div>
+</body>
+</html>
