@@ -5,30 +5,77 @@
 <title>v20</title>
 
 <style type="text/css">
-	p{
-		font-weight: bold;
-		font-family: sans-serif;
-		font-size: 50px;
+	body{
+		background: black
 	}
-
 	div{
+		position: relative;
 		border-style: line;
 		font-weight: normal;
-		width: 300px;
+		font-family: times;
+		margin: auto;
+		float: left;
+		background: lightblue;
+		width: 200px;
+		height: 200px;
+		border: solid;
+		border-width: 20px;
+		border-color: black;
+		font-size: 20px;
 	}
+
+	.top{
+		position: absolute;
+		bottom: 0px;
+		right: 0px;
+	}
+
+	#one{
+		text-align: right;
+		bottom: 0px;
+	}
+
+	#two{
+		text-align: left;
+	}
+
+	#three{
+		text-align: right;
+		margin-left: 50px;
+	}
+
+	#four{
+		text-align: left;
+	}
+
+	#five{
+		text-align: right;
+	}
+
+	#six{
+		text-align: left;
+	}
+
+	#seven{
+		text-align: right;
+		margin-left: 50px;
+	}
+
+	#eight{
+		text-align: left;
+	}
+
 </style>
 </head>
 
 <body>
-	<p>
-		<div>Had I the heavens' embroidered cloths,</div>
-		<div>Enwrought with golden and silver light,</div>
-		<div>The blue and the dim and the dark cloths</div>
-		Of night and light and the half-light,
-		I would spread the cloths under your feet:
-		But I, being poor, have only my dreams;
-		I have spread my dreams under your feet;
-		Tread softly because you tread on my dreams.
-	</p>
+	<em><div id="one"><span class="top">had i the heavens' embroidered cloths,</span></div>
+	<div id="two"><span class="top">enwrought with golden and silver light,</span></div>
+	<div id="three"><span class="top">the blue and the dim and the dark cloths</span></div>
+	<div id="four"><span class="top">of night and light and the half-light,</span></div>
+	<div id="five">i would spread the cloths under your feet:</div>
+	<div id="six">but i, being poor, have only my dreams;</div>
+	<div id="seven">i have spread my dreams under your feet;</div>
+	<div id="eight">tread softly because you tread on my dreams.</div></em>
 </body>
 </html>
