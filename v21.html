@@ -5,8 +5,22 @@
 <title>v21</title>
 
 <style type="text/css">
-	body{
+	.nav{
+		height: 20px;
+		width: 100px;
 		position: fixed;
+		left: 0px;
+		bottom: 0px;
+		text-align: center;
+		background: #85C1E9;
+		font-family: sans-serif;
+	}
+
+	body{
+		background: darkblue;
+	}
+
+	#text{
 		background: darkblue;
 		color: white;
 		font-family: sans-serif;
@@ -14,6 +28,10 @@
 		letter-spacing: 40px;
 		text-align: center;
 		line-height: 50px;
+		margin: 0px;
+		float: right;
+		width: auto;
+		height: auto;
 	}
 
 	.moon{
@@ -42,18 +60,27 @@
 </head>
 
 <body>
+	<footer>
+		<div class="nav">
+			<a href="v20.html"><<</a>
+			<a href="variations.html">home</a>
+			<a href="v22.html">>></a>
+		</div>
+	</footer>
+	
+	<div id="text">
+		Had I the heavens' embroidered cloths,
+		Enwrought with golden and silver light,
+		The blue and the dim and the dark cloths
+		Of night and light and the half-light,
+		I would spread the cloths under your feet:
+		But I, being poor, have only my dreams;
+		I have spread my dreams under your feet;
+		Tread softly because you tread on my dreams.
+	</div>
 	<div class="moon">
 		<div id="moon"></div>
 		<div id="moonshadow"></div>
 	</div>
-
-	Had I the heavens' embroidered cloths,
-	Enwrought with golden and silver light,
-	The blue and the dim and the dark cloths
-	Of night and light and the half-light,
-	I would spread the cloths under your feet:
-	But I, being poor, have only my dreams;
-	I have spread my dreams under your feet;
-	Tread softly because you tread on my dreams.
 </body>
 </html>
