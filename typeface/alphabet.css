@@ -7,6 +7,18 @@
 	background: black;
 }
 
+div[class*='a']:hover {
+	background: black;
+	transition: background 0s;
+}
+
+div[class*='a'] {
+	-webkit-transition: background 2s;
+	-moz-transition: background 2s;
+	-o-transition: background 2s;
+  	transition: background 2s;
+}
+
 .a {
 	position: relative;
 	height: 140px;
@@ -16,7 +28,7 @@
 	float: left;
 }
 
-	#a-one{
+	.a-one{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -24,7 +36,7 @@
 		left: 40px;
 	}
 
-	#a-two{
+	.a-two{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -33,7 +45,7 @@
 		left:20px;
 	}
 
-	#a-three{
+	.a-three{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -42,7 +54,7 @@
 		left: 60px;
 	}
 
-	#a-four{
+	.a-four{
 		position: absolute;
 		height: 100px;
 		width: 20px;
@@ -51,7 +63,7 @@
 		left: 0px;
 	}
 
-	#a-five{
+	.a-five{
 		position: absolute;
 		height: 100px;
 		width: 20px;
@@ -60,7 +72,7 @@
 		left: 80px;
 	}
 
-	#a-six{
+	.a-six{
 		position: absolute;
 		height: 20px;
 		width: 60px;
@@ -78,7 +90,7 @@
 	float: left;
 }
 	
-	#a2-one{
+	.a2-one{
 		position: absolute;
 		height: 40px;
 		width: 20px;
@@ -87,7 +99,7 @@
 		left: 0px;
 	}
 
-	#a2-two{
+	.a2-two{
 		position: absolute;
 		height: 20px;
 		width: 40px;
@@ -96,7 +108,7 @@
 		left: 20px;
 	}
 
-	#a2-three{
+	.a2-three{
 		position: absolute;
 		height: 60px;
 		width: 20px;
@@ -105,7 +117,7 @@
 		left: 60px;
 	}
 
-	#a2-four{
+	.a2-four{
 		position: absolute;
 		height: 20px;
 		width: 40px;
@@ -113,6 +125,18 @@
 		top: 120px;
 		left: 20px;
 	}
+
+div[class*='b']:hover {
+	background: black;
+	transition: background 0s;
+}
+
+div[class*='b'] {
+	-webkit-transition: background 2s;
+	-moz-transition: background 2s;
+	-o-transition: background 2s;
+  	transition: background 2s;
+}
 
 .b {
 	position: relative;
@@ -123,7 +147,7 @@
 	float: left;
 }
 	
-	#b-one{
+	.b-one{
 		position: absolute;
 		height: 140px;
 		width: 20px;
@@ -132,7 +156,7 @@
 		left: 0px;
 	}
 	
-	#b-two{
+	.b-two{
 		position: absolute;
 		height: 20px;
 		width: 40px;
@@ -141,7 +165,7 @@
 		left: 20px;
 	}
 
-	#b-three{
+	.b-three{
 		position: absolute;
 		height: 20px;
 		width: 40px;
@@ -150,7 +174,7 @@
 		left: 20px;
 	}
 
-	#b-four{
+	.b-four{
 		position: absolute;
 		height: 20px;
 		width: 60px;
@@ -159,7 +183,7 @@
 		left: 20px;
 	}
 
-	#b-five{
+	.b-five{
 		position: absolute;
 		height: 60px;
 		width: 20px;
@@ -168,7 +192,7 @@
 		left: 60px;
 	}
 
-	#b-six{
+	.b-six{
 		position: absolute;
 		height: 40px;
 		width: 20px;
@@ -186,7 +210,7 @@
 	float: left;
 }
 
-	#b2-one{
+	.b2-one{
 		position: absolute;
 		height: 140px;
 		width: 20px;
@@ -195,7 +219,7 @@
 		left: 0px;
 	}
 
-	#b2-two{
+	.b2-two{
 		position: absolute;
 		height: 20px;
 		width: 40px;
@@ -204,7 +228,7 @@
 		left: 20px;
 	}
 
-	#b2-three{
+	.b2-three{
 		position: absolute;
 		height: 40px;
 		width: 20px;
@@ -213,7 +237,7 @@
 		left: 60px;
 	}
 
-	#b2-four{
+	.b2-four{
 		position: absolute;
 		height: 20px;
 		width: 40px;
@@ -221,6 +245,18 @@
 		top: 120px;
 		left: 20px;
 	}
+
+div[class*='c']:hover {
+	background: black;
+	transition: background 0s;
+}
+
+div[class*='c'] {
+	-webkit-transition: background 2s;
+	-moz-transition: background 2s;
+	-o-transition: background 2s;
+  	transition: background 2s;
+}
 
 .c {
 	position: relative;
@@ -231,7 +267,7 @@
 	float: left;
 }
 	
-	#c-one{
+	.c-one{
 		position: absolute;
 		height: 100px;
 		width: 20px;
@@ -240,7 +276,7 @@
 		left: 0px;
 	}
 
-	#c-two{
+	.c-two{
 		position: absolute;
 		height: 20px;
 		width: 60px;
@@ -249,7 +285,7 @@
 		left: 20px;
 	}
 
-	#c-three{
+	.c-three{
 		position: absolute;
 		height: 20px;
 		width: 60px;
@@ -258,7 +294,7 @@
 		left: 20px;
 	}
 
-	#c-four{
+	.c-four{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -267,7 +303,7 @@
 		left: 80px;
 	}
 
-	#c-five{
+	.c-five{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -285,7 +321,7 @@
 	float: left;
 }
 
-	#c2-one{
+	.c2-one{
 		position: absolute;
 		height: 40px;
 		width: 20px;
@@ -294,7 +330,7 @@
 		left: 0px;
 	}
 
-	#c2-two{
+	.c2-two{
 		position: absolute;
 		height: 20px;
 		width: 40px;
@@ -303,7 +339,7 @@
 		left: 20px;
 	}
 
-	#c2-three{
+	.c2-three{
 		position: absolute;
 		height: 20px;
 		width: 40px;
@@ -312,7 +348,7 @@
 		left: 20px;
 	}
 
-	#c2-four{
+	.c2-four{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -320,6 +356,18 @@
 		top: 100px;
 		left: 60px;
 	}
+
+div[class*='d']:hover {
+	background: black;
+	transition: background 0s;
+}
+
+div[class*='d'] {
+	-webkit-transition: background 2s;
+	-moz-transition: background 2s;
+	-o-transition: background 2s;
+  	transition: background 2s;
+}
 
 .d {
 	position: relative;
@@ -330,7 +378,7 @@
 	float: left;
 }
 
-	#d-one{
+	.d-one{
 		position: absolute;
 		height: 140px;
 		width: 20px;
@@ -339,7 +387,7 @@
 		left: 0px;
 	}
 
-	#d-two{
+	.d-two{
 		position: absolute;
 		height: 20px;
 		width: 40px;
@@ -348,7 +396,7 @@
 		left: 20px;
 	}
 
-	#d-three{
+	.d-three{
 		position: absolute;
 		height: 20px;
 		width: 60px;
@@ -357,7 +405,7 @@
 		left: 20px;
 	}
 
-	#d-four{
+	.d-four{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -366,7 +414,7 @@
 		left: 60px;
 	}
 
-	#d-five{
+	.d-five{
 		position: absolute;
 		height: 80px;
 		width: 20px;
@@ -384,7 +432,7 @@
 	float: left;
 }
 	
-	#d2-one{
+	.d2-one{
 		position: absolute;
 		height: 40px;
 		width: 20px;
@@ -393,7 +441,7 @@
 		left: 0px;
 	}
 
-	#d2-two{
+	.d2-two{
 		position: absolute;
 		height: 20px;
 		width: 40px;
@@ -402,7 +450,7 @@
 		left: 20px;
 	}
 
-	#d2-three{
+	.d2-three{
 		position: absolute;
 		height: 140px;
 		width: 20px;
@@ -411,7 +459,7 @@
 		left: 60px;
 	}
 
-	#d2-four{
+	.d2-four{
 		position: absolute;
 		height: 20px;
 		width: 40px;
@@ -419,6 +467,18 @@
 		top: 120px;
 		left: 20px;
 	}
+
+div[class*='e']:hover {
+	background: black;
+	transition: background 0s;
+}
+
+div[class*='e'] {
+	-webkit-transition: background 2s;
+	-moz-transition: background 2s;
+	-o-transition: background 2s;
+  	transition: background 2s;
+}
 
 .e {
 	position: relative;
@@ -429,7 +489,7 @@
 	float: left;
 }
 
-	#e-one{
+	.e-one{
 		position: absolute;
 		height: 140px;
 		width: 20px;
@@ -438,7 +498,7 @@
 		left: 0px;
 	}
 	
-	#e-two{
+	.e-two{
 		position: absolute;
 		height: 20px;
 		width: 80px;
@@ -447,7 +507,7 @@
 		left: 20px;
 	}
 
-	#e-three{
+	.e-three{
 		position: absolute;
 		height: 20px;
 		width: 60px;
@@ -456,7 +516,7 @@
 		left: 20px;
 	}
 
-	#e-four{
+	.e-four{
 		position: absolute;
 		height: 20px;
 		width: 80px;
@@ -474,7 +534,7 @@
 	float: left;
 }
 
-	#e2-one{
+	.e2-one{
 		position: absolute;
 		height: 40px;
 		width: 20px;
@@ -483,7 +543,7 @@
 		left: 0px;
 	}
 
-	#e2-two{
+	.e2-two{
 		position: absolute;
 		height: 20px;
 		width: 40px;
@@ -492,7 +552,7 @@
 		left: 20px;
 	}
 
-	#e2-three{
+	.e2-three{
 		position: absolute;
 		height: 20px;
 		width: 40px;
@@ -501,7 +561,7 @@
 		left: 20px;
 	}
 
-	#e2-four{
+	.e2-four{
 		position: absolute;
 		height: 20px;
 		width: 60px;
@@ -509,6 +569,18 @@
 		top: 80px;
 		left: 20px;
 	}
+
+div[class*='f']:hover {
+	background: black;
+	transition: background 0s;
+}
+
+div[class*='f'] {
+	-webkit-transition: background 2s;
+	-moz-transition: background 2s;
+	-o-transition: background 2s;
+  	transition: background 2s;
+}
 
 .f {
 	position: relative;
@@ -519,7 +591,7 @@
 	float: left;
 }
 	
-	#f-one{
+	.f-one{
 		position: absolute;
 		height: 140px;
 		width: 20px;
@@ -528,7 +600,7 @@
 		left: 0px;
 	}
 	
-	#f-two{
+	.f-two{
 		position: absolute;
 		height: 20px;
 		width: 80px;
@@ -537,7 +609,7 @@
 		left: 20px;
 	}
 
-	#f-three{
+	.f-three{
 		position: absolute;
 		height: 20px;
 		width: 60px;
@@ -555,7 +627,7 @@
 	float: left;
 }
 
-	#f2-one{
+	.f2-one{
 		position: absolute;
 		height: 120px;
 		width: 20px;
@@ -564,7 +636,7 @@
 		left: 0px;
 	}
 
-	#f2-two{
+	.f2-two{
 		position: absolute;
 		height: 20px;
 		width: 40px;
@@ -573,7 +645,7 @@
 		left: 20px;
 	}
 
-	#f2-three{
+	.f2-three{
 		position: absolute;
 		height: 20px;
 		width: 40px;
@@ -582,7 +654,7 @@
 		left: 20px;
 	}
 
-	#f2-four{
+	.f2-four{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -590,6 +662,18 @@
 		top: 20px;
 		left: 60px;
 	}
+
+div[class*='g']:hover {
+	background: black;
+	transition: background 0s;
+}
+
+div[class*='g'] {
+	-webkit-transition: background 2s;
+	-moz-transition: background 2s;
+	-o-transition: background 2s;
+  	transition: background 2s;
+}
 
 .g {
 	position: relative;
@@ -600,7 +684,7 @@
 	float: left;
 }
 
-	#g-one{
+	.g-one{
 		position: absolute;
 		height: 100px;
 		width: 20px;
@@ -609,7 +693,7 @@
 		left: 0px;
 	}
 
-	#g-two{
+	.g-two{
 		position: absolute;
 		height: 20px;
 		width: 60px;
@@ -618,7 +702,7 @@
 		left: 20px;
 	}
 
-	#g-three{
+	.g-three{
 		position: absolute;
 		height: 20px;
 		width: 60px;
@@ -627,7 +711,7 @@
 		left: 20px;
 	}
 
-	#g-four{
+	.g-four{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -636,7 +720,7 @@
 		left: 80px;
 	}
 
-	#g-five{
+	.g-five{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -645,7 +729,7 @@
 		left: 80px;
 	}
 
-	#g-six{
+	.g-six{
 		position: absolute;
 		height: 20px;
 		width: 40px;
@@ -663,7 +747,7 @@
 	float: left;
 }
 
-	#g2-one{
+	.g2-one{
 		position: absolute;
 		height: 40px;
 		width: 20px;
@@ -672,7 +756,7 @@
 		left: 0px;
 	}
 
-	#g2-two{
+	.g2-two{
 		position: absolute;
 		height: 20px;
 		width: 40px;
@@ -681,7 +765,7 @@
 		left: 20px;
 	}
 
-	#g2-three{
+	.g2-three{
 		position: absolute;
 		height: 100px;
 		width: 20px;
@@ -690,7 +774,7 @@
 		left: 60px;
 	}
 
-	#g2-four{
+	.g2-four{
 		position: absolute;
 		height: 20px;
 		width: 40px;
@@ -699,7 +783,7 @@
 		left: 20px;
 	}
 
-	#g2-five{
+	.g2-five{
 		position: absolute;
 		height: 20px;
 		width: 40px;
@@ -707,6 +791,18 @@
 		top: 120px;
 		left: 20px;
 	}
+
+div[class*='h']:hover {
+	background: black;
+	transition: background 0s;
+}
+
+div[class*='h'] {
+	-webkit-transition: background 2s;
+	-moz-transition: background 2s;
+	-o-transition: background 2s;
+  	transition: background 2s;
+}
 
 .h {
 	position: relative;
@@ -717,7 +813,7 @@
 	float: left;
 }
 
-	#h-one{
+	.h-one{
 		position: absolute;
 		height: 140px;
 		width: 20px;
@@ -726,7 +822,7 @@
 		left: 0px;
 	}
 
-	#h-two{
+	.h-two{
 		position: absolute;
 		height: 20px;
 		width: 60px;
@@ -735,7 +831,7 @@
 		left: 20px;
 	}
 
-	#h-three{
+	.h-three{
 		position: absolute;
 		height: 140px;
 		width: 20px;
@@ -753,7 +849,7 @@
 	float: left;
 }
 
-	#h2-one{
+	.h2-one{
 		position: absolute;
 		height: 140px;
 		width: 20px;
@@ -762,7 +858,7 @@
 		left: 0px;
 	}
 
-	#h2-two{
+	.h2-two{
 		position: absolute;
 		height: 20px;
 		width: 40px;
@@ -771,7 +867,7 @@
 		left: 20px;
 	}
 
-	#h2-three{
+	.h2-three{
 		position: absolute;
 		height: 60px;
 		width: 20px;
@@ -779,6 +875,18 @@
 		top: 80px;
 		left: 60px;
 	}
+
+div[class*='i']:hover {
+	background: black;
+	transition: background 0s;
+}
+
+div[class*='i'] {
+	-webkit-transition: background 2s;
+	-moz-transition: background 2s;
+	-o-transition: background 2s;
+  	transition: background 2s;
+}
 
 .i {
 	position: relative;
@@ -789,7 +897,7 @@
 	float: left;
 }
 
-	#i-one{
+	.i-one{
 		position: absolute;
 		height: 20px;
 		width: 100px;
@@ -798,7 +906,7 @@
 		left: 0px;
 	}
 
-	#i-two{
+	.i-two{
 		position: absolute;
 		height: 100px;
 		width: 20px;
@@ -807,7 +915,7 @@
 		left: 40px;
 	}
 
-	#i-three{
+	.i-three{
 		position: absolute;
 		height: 20px;
 		width: 100px;
@@ -825,7 +933,7 @@
 	float: left;
 }
 
-	#i2-one{
+	.i2-one{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -834,7 +942,7 @@
 		left: 0px;
 	}
 
-	#i2-two{
+	.i2-two{
 		position: absolute;
 		height: 80px;
 		width: 20px;
@@ -842,6 +950,18 @@
 		top: 60px;
 		left: 0px;
 	}
+
+div[class*='j']:hover {
+	background: black;
+	transition: background 0s;
+}
+
+div[class*='j'] {
+	-webkit-transition: background 2s;
+	-moz-transition: background 2s;
+	-o-transition: background 2s;
+  	transition: background 2s;
+}
 
 .j {
 	position: relative;
@@ -852,7 +972,7 @@
 	float: left;
 }
 
-	#j-one{
+	.j-one{
 		position: absolute;
 		height: 20px;
 		width: 100px;
@@ -861,7 +981,7 @@
 		left: 0px;
 	}
 
-	#j-two{
+	.j-two{
 		position: absolute;
 		height: 100px;
 		width: 20px;
@@ -870,7 +990,7 @@
 		left: 60px;
 	}
 
-	#j-three{
+	.j-three{
 		position: absolute;
 		height: 20px;
 		width: 40px;
@@ -879,7 +999,7 @@
 		left: 20px;
 	}
 
-	#j-four{
+	.j-four{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -897,7 +1017,7 @@
 	float: left;
 }
 
-	#j2-one{
+	.j2-one{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -906,7 +1026,7 @@
 		left: 20px;
 	}
 
-	#j2-two{
+	.j2-two{
 		position: absolute;
 		height: 100px;
 		width: 20px;
@@ -915,7 +1035,7 @@
 		left: 20px;
 	}
 
-	#j2-three{
+	.j2-three{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -923,6 +1043,18 @@
 		bottom: 0px;
 		left: 0px;
 	}
+
+div[class*='k']:hover {
+	background: black;
+	transition: background 0s;
+}
+
+div[class*='k'] {
+	-webkit-transition: background 2s;
+	-moz-transition: background 2s;
+	-o-transition: background 2s;
+  	transition: background 2s;
+}
 
 .k {
 	position: relative;
@@ -933,7 +1065,7 @@
 	float: left;
 }
 
-	#k-one{
+	.k-one{
 		position: absolute;
 		height: 140px;
 		width: 20px;
@@ -942,7 +1074,7 @@
 		left: 0px;
 	}
 
-	#k-two{
+	.k-two{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -951,7 +1083,7 @@
 		left: 20px;
 	}
 
-	#k-three{
+	.k-three{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -960,7 +1092,7 @@
 		left: 40px;
 	}
 
-	#k-four{
+	.k-four{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -969,7 +1101,7 @@
 		left: 40px;
 	}
 
-	#k-five{
+	.k-five{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -978,7 +1110,7 @@
 		left: 60px;
 	}
 
-	#k-six{
+	.k-six{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -987,7 +1119,7 @@
 		left: 60px;
 	}
 
-	#k-seven{
+	.k-seven{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -996,7 +1128,7 @@
 		left: 80px;
 	}
 
-	#k-eight{
+	.k-eight{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -1014,7 +1146,7 @@
 	float: left;
 }
 
-	#k2-one{
+	.k2-one{
 		position: absolute;
 		height: 140px;
 		width: 20px;
@@ -1023,7 +1155,7 @@
 		left: 0px;
 	}
 
-	#k2-two{
+	.k2-two{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -1032,7 +1164,7 @@
 		left: 20px;
 	}
 
-	#k2-three{
+	.k2-three{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -1041,7 +1173,7 @@
 		left: 40px;
 	}
 
-	#k2-four{
+	.k2-four{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -1050,7 +1182,7 @@
 		left: 40px;
 	}
 
-	#k2-five{
+	.k2-five{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -1059,7 +1191,7 @@
 		left: 60px;
 	}
 
-	#k2-six{
+	.k2-six{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -1067,6 +1199,18 @@
 		bottom: 0px;
 		left: 60px;
 	}
+
+div[class*='l']:hover {
+	background: black;
+	transition: background 0s;
+}
+
+div[class*='l'] {
+	-webkit-transition: background 2s;
+	-moz-transition: background 2s;
+	-o-transition: background 2s;
+  	transition: background 2s;
+}
 
 .l {
 	position: relative;
@@ -1077,7 +1221,7 @@
 	float: left;
 }
 
-	#l-one{
+	.l-one{
 		position: absolute;
 		height: 140px;
 		width: 20px;
@@ -1086,7 +1230,7 @@
 		left: 0px;
 	}
 
-	#l-two{
+	.l-two{
 		position: absolute;
 		height: 20px;
 		width: 80px;
@@ -1104,7 +1248,7 @@
 	float: left;
 }
 
-	#l2-one{
+	.l2-one{
 		position: absolute;
 		height: 140px;
 		width: 20px;
@@ -1112,6 +1256,18 @@
 		top: 0px;
 		left: 0px;
 	}
+
+div[class*='m']:hover {
+	background: black;
+	transition: background 0s;
+}
+
+div[class*='m'] {
+	-webkit-transition: background 2s;
+	-moz-transition: background 2s;
+	-o-transition: background 2s;
+  	transition: background 2s;
+}
 
 .m {
 	position: relative;
@@ -1122,7 +1278,7 @@
 	float: left;
 }
 
-	#m-one{
+	.m-one{
 		position: absolute;
 		height: 140px;
 		width: 20px;
@@ -1131,7 +1287,7 @@
 		left: 0px;
 	}
 
-	#m-two{
+	.m-two{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -1140,7 +1296,7 @@
 		left: 20px;
 	}
 
-	#m-three{
+	.m-three{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -1149,7 +1305,7 @@
 		left: 40px;
 	}
 
-	#m-four{
+	.m-four{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -1158,7 +1314,7 @@
 		left: 60px;
 	}
 	
-	#m-five{
+	.m-five{
 		position: absolute;
 		height: 140px;
 		width: 20px;
@@ -1176,7 +1332,7 @@
 	float: left;
 }
 
-	#m2-one{
+	.m2-one{
 		position: absolute;
 		height: 60px;
 		width: 20px;
@@ -1185,7 +1341,7 @@
 		left: 0px;
 	}
 
-	#m2-two{
+	.m2-two{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -1194,7 +1350,7 @@
 		left: 20px;
 	}
 
-	#m2-three{
+	.m2-three{
 		position: absolute;
 		height: 40px;
 		width: 20px;
@@ -1203,7 +1359,7 @@
 		left: 40px;
 	}
 
-	#m2-four{
+	.m2-four{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -1212,7 +1368,7 @@
 		left: 60px;
 	}
 	
-	#m2-five{
+	.m2-five{
 		position: absolute;
 		height: 60px;
 		width: 20px;
@@ -1220,6 +1376,18 @@
 		top: 80px;
 		left: 80px;
 	}
+
+div[class*='n']:hover {
+	background: black;
+	transition: background 0s;
+}
+
+div[class*='n'] {
+	-webkit-transition: background 2s;
+	-moz-transition: background 2s;
+	-o-transition: background 2s;
+  	transition: background 2s;
+}
 
 .n {
 	position: relative;
@@ -1230,7 +1398,7 @@
 	float: left;
 }
 
-	#n-one{
+	.n-one{
 		position: absolute;
 		height: 140px;
 		width: 20px;
@@ -1239,7 +1407,7 @@
 		left: 0px;
 	}
 
-	#n-two{
+	.n-two{
 		position: absolute;
 		height: 40px;
 		width: 20px;
@@ -1248,7 +1416,7 @@
 		left: 20px;
 	}
 
-	#n-three{
+	.n-three{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -1257,7 +1425,7 @@
 		left: 40px;
 	}
 
-	#n-four{
+	.n-four{
 		position: absolute;
 		height: 40px;
 		width: 20px;
@@ -1266,7 +1434,7 @@
 		left: 60px;
 	}
 	
-	#n-five{
+	.n-five{
 		position: absolute;
 		height: 140px;
 		width: 20px;
@@ -1284,7 +1452,7 @@
 	float: left;
 }
 
-	#n2-one{
+	.n2-one{
 		position: absolute;
 		height: 80px;
 		width: 20px;
@@ -1293,7 +1461,7 @@
 		left: 0px;
 	}
 
-	#n2-two{
+	.n2-two{
 		position: absolute;
 		height: 20px;
 		width: 40px;
@@ -1302,7 +1470,7 @@
 		left: 20px;
 	}
 
-	#n2-three{
+	.n2-three{
 		position: absolute;
 		height: 60px;
 		width: 20px;
@@ -1310,6 +1478,18 @@
 		top: 80px;
 		left: 60px;
 	}
+
+div[class*='o']:hover {
+	background: black;
+	transition: background 0s;
+}
+
+div[class*='o'] {
+	-webkit-transition: background 2s;
+	-moz-transition: background 2s;
+	-o-transition: background 2s;
+  	transition: background 2s;
+}
 
 .o {
 	position: relative;
@@ -1320,7 +1500,7 @@
 	float: left;
 }
 	
-	#o-one{
+	.o-one{
 		position: absolute;
 		height: 100px;
 		width: 20px;
@@ -1329,7 +1509,7 @@
 		left: 0px;
 	}
 
-	#o-two{
+	.o-two{
 		position: absolute;
 		height: 20px;
 		width: 60px;
@@ -1338,7 +1518,7 @@
 		left: 20px;
 	}
 
-	#o-three{
+	.o-three{
 		position: absolute;
 		height: 20px;
 		width: 60px;
@@ -1347,7 +1527,7 @@
 		left: 20px;
 	}
 
-	#o-four{
+	.o-four{
 		position: absolute;
 		height: 100px;
 		width: 20px;
@@ -1365,7 +1545,7 @@
 	float: left;
 }
 
-	#o2-one{
+	.o2-one{
 		position: absolute;
 		height: 40px;
 		width: 20px;
@@ -1374,7 +1554,7 @@
 		left: 0px;
 	}
 
-	#o2-two{
+	.o2-two{
 		position: absolute;
 		height: 20px;
 		width: 40px;
@@ -1383,7 +1563,7 @@
 		left: 20px;
 	}
 
-	#o2-three{
+	.o2-three{
 		position: absolute;
 		height: 20px;
 		width: 40px;
@@ -1392,7 +1572,7 @@
 		left: 20px;
 	}
 
-	#o2-four{
+	.o2-four{
 		position: absolute;
 		height: 40px;
 		width: 20px;
@@ -1400,6 +1580,18 @@
 		top: 80px;
 		left: 60px;
 	}
+
+div[class*='p']:hover {
+	background: black;
+	transition: background 0s;
+}
+
+div[class*='p'] {
+	-webkit-transition: background 2s;
+	-moz-transition: background 2s;
+	-o-transition: background 2s;
+  	transition: background 2s;
+}
 
 .p {
 	position: relative;
@@ -1410,7 +1602,7 @@
 	float: left;
 }
 	
-	#p-one{
+	.p-one{
 		position: absolute;
 		height: 140px;
 		width: 20px;
@@ -1419,7 +1611,7 @@
 		left: 0px;
 	}
 	
-	#p-two{
+	.p-two{
 		position: absolute;
 		height: 20px;
 		width: 60px;
@@ -1428,7 +1620,7 @@
 		left: 20px;
 	}
 
-	#p-three{
+	.p-three{
 		position: absolute;
 		height: 20px;
 		width: 60px;
@@ -1437,7 +1629,7 @@
 		left: 20px;
 	}
 
-	#p-four{
+	.p-four{
 		position: absolute;
 		height: 40px;
 		width: 20px;
@@ -1455,7 +1647,7 @@
 	float: left;
 }
 	
-	#p2-one{
+	.p2-one{
 		position: absolute;
 		height: 120px;
 		width: 20px;
@@ -1464,7 +1656,7 @@
 		left: 0px;
 	}
 	
-	#p2-two{
+	.p2-two{
 		position: absolute;
 		height: 20px;
 		width: 40px;
@@ -1473,7 +1665,7 @@
 		left: 20px;
 	}
 
-	#p2-three{
+	.p2-three{
 		position: absolute;
 		height: 20px;
 		width: 40px;
@@ -1482,7 +1674,7 @@
 		left: 20px;
 	}
 
-	#p2-four{
+	.p2-four{
 		position: absolute;
 		height: 40px;
 		width: 20px;
@@ -1500,7 +1692,7 @@
 	float: left;
 }
 	
-	#q-one{
+	.q-one{
 		position: absolute;
 		height: 100px;
 		width: 20px;
@@ -1509,7 +1701,7 @@
 		left: 0px;
 	}
 
-	#q-two{
+	.q-two{
 		position: absolute;
 		height: 20px;
 		width: 40px;
@@ -1518,7 +1710,7 @@
 		left: 20px;
 	}
 
-	#q-three{
+	.q-three{
 		position: absolute;
 		height: 20px;
 		width: 60px;
@@ -1527,7 +1719,7 @@
 		left: 20px;
 	}
 
-	#q-four{
+	.q-four{
 		position: absolute;
 		height: 80px;
 		width: 20px;
@@ -1536,7 +1728,7 @@
 		left: 80px;
 	}
 
-	#q-five{
+	.q-five{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -1545,7 +1737,7 @@
 		left: 60px;
 	}
 
-	#q-six{
+	.q-six{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -1563,7 +1755,7 @@
 	float: left;
 }
 	
-	#q2-one{
+	.q2-one{
 		position: absolute;
 		height: 40px;
 		width: 20px;
@@ -1572,7 +1764,7 @@
 		left: 0px;
 	}
 	
-	#q2-two{
+	.q2-two{
 		position: absolute;
 		height: 20px;
 		width: 40px;
@@ -1581,7 +1773,7 @@
 		left: 20px;
 	}
 
-	#q2-three{
+	.q2-three{
 		position: absolute;
 		height: 20px;
 		width: 40px;
@@ -1590,7 +1782,7 @@
 		left: 20px;
 	}
 
-	#q2-four{
+	.q2-four{
 		position: absolute;
 		height: 120px;
 		width: 20px;
@@ -1608,7 +1800,7 @@
 	float: left;
 }
 	
-	#r-one{
+	.r-one{
 		position: absolute;
 		height: 140px;
 		width: 20px;
@@ -1617,7 +1809,7 @@
 		left: 0px;
 	}
 	
-	#r-two{
+	.r-two{
 		position: absolute;
 		height: 20px;
 		width: 60px;
@@ -1626,7 +1818,7 @@
 		left: 20px;
 	}
 
-	#r-three{
+	.r-three{
 		position: absolute;
 		height: 20px;
 		width: 60px;
@@ -1635,7 +1827,7 @@
 		left: 20px;
 	}
 
-	#r-four{
+	.r-four{
 		position: absolute;
 		height: 40px;
 		width: 20px;
@@ -1644,7 +1836,7 @@
 		left: 80px;
 	}
 
-	#r-five{
+	.r-five{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -1653,7 +1845,7 @@
 		right: 40px;
 	}
 
-	#r-six{
+	.r-six{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -1662,7 +1854,7 @@
 		right: 20px;
 	}
 
-	#r-seven{
+	.r-seven{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -1680,7 +1872,7 @@
 	float: left;
 }
 
-	#r2-one{
+	.r2-one{
 		position: absolute;
 		height: 80px;
 		width: 20px;
@@ -1689,7 +1881,7 @@
 		left: 0px;
 	}
 
-	#r2-two{
+	.r2-two{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -1698,7 +1890,7 @@
 		left: 20px;
 	}
 
-	#r2-three{
+	.r2-three{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -1707,7 +1899,7 @@
 		left: 40px;
 	}
 
-	#r2-four{
+	.r2-four{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -1725,7 +1917,7 @@
 	float: left;
 }
 	
-	#s-one{
+	.s-one{
 		position: absolute;
 		height: 40px;
 		width: 20px;
@@ -1734,7 +1926,7 @@
 		left: 0px;
 	}
 
-	#s-two{
+	.s-two{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -1743,7 +1935,7 @@
 		left: 0px;
 	}
 
-	#s-three{
+	.s-three{
 		position: absolute;
 		height: 20px;
 		width: 60px;
@@ -1752,7 +1944,7 @@
 		left: 20px;
 	}
 
-	#s-four{
+	.s-four{
 		position: absolute;
 		height: 20px;
 		width: 60px;
@@ -1761,7 +1953,7 @@
 		left: 20px;
 	}
 
-	#s-five{
+	.s-five{
 		position: absolute;
 		height: 20px;
 		width: 60px;
@@ -1770,7 +1962,7 @@
 		left: 20px;
 	}
 
-	#s-six{
+	.s-six{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -1779,7 +1971,7 @@
 		left: 80px;
 	}
 
-	#s-seven{
+	.s-seven{
 		position: absolute;
 		height: 40px;
 		width: 20px;
@@ -1797,7 +1989,7 @@
 	float: left;
 }
 
-	#s2-one{
+	.s2-one{
 		position: absolute;
 		height: 20px;
 		width: 60px;
@@ -1806,7 +1998,7 @@
 		left: 20px;
 	}
 
-	#s2-two{
+	.s2-two{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -1815,7 +2007,7 @@
 		left: 20px;
 	}
 
-	#s2-three{
+	.s2-three{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -1824,7 +2016,7 @@
 		left: 40px;
 	}
 
-	#s2-four{
+	.s2-four{
 		position: absolute;
 		height: 20px;
 		width: 60px;
@@ -1842,7 +2034,7 @@
 	float: left;
 }
 
-	#t-one{
+	.t-one{
 		position: absolute;
 		height: 20px;
 		width: 100px;
@@ -1851,7 +2043,7 @@
 		left: 0px;
 	}
 
-	#t-two{
+	.t-two{
 		position: absolute;
 		height: 120px;
 		width: 20px;
@@ -1869,7 +2061,7 @@
 	float: left;
 }
 
-	#t2-one{
+	.t2-one{
 		position: absolute;
 		height: 20px;
 		width: 60px;
@@ -1878,7 +2070,7 @@
 		left: 0px;
 	}
 
-	#t2-two{
+	.t2-two{
 		position: absolute;
 		height: 100px;
 		width: 20px;
@@ -1896,7 +2088,7 @@
 	float: left;
 }
 	
-	#u-one{
+	.u-one{
 		position: absolute;
 		height: 120px;
 		width: 20px;
@@ -1905,7 +2097,7 @@
 		left: 0px;
 	}
 
-	#u-two{
+	.u-two{
 		position: absolute;
 		height: 20px;
 		width: 60px;
@@ -1914,7 +2106,7 @@
 		left: 20px;
 	}
 
-	#u-three{
+	.u-three{
 		position: absolute;
 		height: 120px;
 		width: 20px;
@@ -1932,7 +2124,7 @@
 	float: left;
 }
 
-	#u2-one{
+	.u2-one{
 		position: absolute;
 		height: 60px;
 		width: 20px;
@@ -1941,7 +2133,7 @@
 		left: 0px;
 	}
 
-	#u2-two{
+	.u2-two{
 		position: absolute;
 		height: 20px;
 		width: 40px;
@@ -1950,7 +2142,7 @@
 		left: 20px;
 	}
 
-	#u2-three{
+	.u2-three{
 		position: absolute;
 		height: 60px;
 		width: 20px;
@@ -1968,7 +2160,7 @@
 	float: left;
 }
 	
-	#v-one{
+	.v-one{
 		position: absolute;
 		height: 100px;
 		width: 20px;
@@ -1977,7 +2169,7 @@
 		left: 0px;
 	}
 
-	#v-two{
+	.v-two{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -1986,7 +2178,7 @@
 		left: 20px;
 	}
 
-	#v-three{
+	.v-three{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -1995,7 +2187,7 @@
 		left: 40px;
 	}
 
-	#v-four{
+	.v-four{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -2004,7 +2196,7 @@
 		left: 60px;
 	}
 
-	#v-five{
+	.v-five{
 		position: absolute;
 		height: 100px;
 		width: 20px;
@@ -2022,7 +2214,7 @@
 	float: left;
 }
 
-	#v2-one{
+	.v2-one{
 		position: absolute;
 		height: 60px;
 		width: 20px;
@@ -2031,7 +2223,7 @@
 		left: 0px;
 	}
 
-	#v2-two{
+	.v2-two{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -2040,7 +2232,7 @@
 		left: 20px;
 	}
 
-	#v2-three{
+	.v2-three{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -2049,7 +2241,7 @@
 		left: 40px;
 	}
 
-	#v2-four{
+	.v2-four{
 		position: absolute;
 		height: 40px;
 		width: 20px;
@@ -2067,7 +2259,7 @@
 	float: left;
 }
 	
-	#w-one{
+	.w-one{
 		position: absolute;
 		height: 120px;
 		width: 20px;
@@ -2076,7 +2268,7 @@
 		left: 0px;
 	}
 
-	#w-two{
+	.w-two{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -2085,7 +2277,7 @@
 		left: 20px;
 	}
 
-	#w-three{
+	.w-three{
 		position: absolute;
 		height: 40px;
 		width: 20px;
@@ -2094,7 +2286,7 @@
 		left: 40px;
 	}
 
-	#w-four{
+	.w-four{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -2103,7 +2295,7 @@
 		left: 60px;
 	}
 
-	#w-five{
+	.w-five{
 		position: absolute;
 		height: 120px;
 		width: 20px;
@@ -2121,7 +2313,7 @@
 	float: left;
 }
 	
-	#w2-one{
+	.w2-one{
 		position: absolute;
 		height: 60px;
 		width: 20px;
@@ -2130,7 +2322,7 @@
 		left: 0px;
 	}
 
-	#w2-two{
+	.w2-two{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -2139,7 +2331,7 @@
 		left: 20px;
 	}
 
-	#w2-three{
+	.w2-three{
 		position: absolute;
 		height: 40px;
 		width: 20px;
@@ -2148,7 +2340,7 @@
 		left: 40px;
 	}
 
-	#w2-four{
+	.w2-four{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -2157,7 +2349,7 @@
 		left: 60px;
 	}
 
-	#w2-five{
+	.w2-five{
 		position: absolute;
 		height: 60px;
 		width: 20px;
@@ -2175,7 +2367,7 @@
 	float: left;
 }
 	
-	#x-one{
+	.x-one{
 		position: absolute;
 		height: 40px;
 		width: 20px;
@@ -2184,7 +2376,7 @@
 		left: 0px;
 	}
 
-	#x-two{
+	.x-two{
 		position: absolute;
 		height: 40px;
 		width: 20px;
@@ -2193,7 +2385,7 @@
 		left: 0px;
 	}
 
-	#x-three{
+	.x-three{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -2202,7 +2394,7 @@
 		left: 20px;
 	}
 
-	#x-four{
+	.x-four{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -2211,7 +2403,7 @@
 		left: 20px;
 	}
 
-	#x-five{
+	.x-five{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -2220,7 +2412,7 @@
 		left: 40px;
 	}
 
-	#x-six{
+	.x-six{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -2229,7 +2421,7 @@
 		left: 60px;
 	}
 
-	#x-seven{
+	.x-seven{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -2238,7 +2430,7 @@
 		left: 60px;
 	}
 
-	#x-eight{
+	.x-eight{
 		position: absolute;
 		height: 40px;
 		width: 20px;
@@ -2247,7 +2439,7 @@
 		left: 80px;
 	}
 
-	#x-nine{
+	.x-nine{
 		position: absolute;
 		height: 40px;
 		width: 20px;
@@ -2265,7 +2457,7 @@
 	float: left;
 }
 
-	#x2-one{
+	.x2-one{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -2274,7 +2466,7 @@
 		left: 0px;
 	}
 
-	#x2-two{
+	.x2-two{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -2283,7 +2475,7 @@
 		left: 0px;
 	}
 
-	#x2-three{
+	.x2-three{
 		position: absolute;
 		height: 40px;
 		width: 40px;
@@ -2292,7 +2484,7 @@
 		left: 20px;
 	}
 
-	#x2-four{
+	.x2-four{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -2301,7 +2493,7 @@
 		right: 0px;
 	}
 
-	#x2-five{
+	.x2-five{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -2319,7 +2511,7 @@
 	float: left;
 }
 
-	#y-one{
+	.y-one{
 		position: absolute;
 		height: 60px;
 		width: 20px;
@@ -2328,7 +2520,7 @@
 		left: 0px;
 	}
 
-	#y-two{
+	.y-two{
 		position: absolute;
 		height: 20px;
 		width: 40px;
@@ -2337,7 +2529,7 @@
 		left: 20px;
 	}
 
-	#y-three{
+	.y-three{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -2346,7 +2538,7 @@
 		left: 60px;
 	}
 
-	#y-four{
+	.y-four{
 		position: absolute;
 		height: 120px;
 		width: 20px;
@@ -2355,7 +2547,7 @@
 		right: 0px;
 	}
 
-	#y-five{
+	.y-five{
 		position: absolute;
 		height: 20px;
 		width: 60px;
@@ -2373,7 +2565,7 @@
 	float: left;
 }
 
-	#y2-one{
+	.y2-one{
 		position: absolute;
 		height: 60px;
 		width: 20px;
@@ -2382,7 +2574,7 @@
 		left: 0px;
 	}
 
-	#y2-two{
+	.y2-two{
 		position: absolute;
 		height: 20px;
 		width: 40px;
@@ -2391,7 +2583,7 @@
 		left: 20px;
 	}
 
-	#y2-three{
+	.y2-three{
 		position: absolute;
 		height: 100px;
 		width: 20px;
@@ -2400,7 +2592,7 @@
 		right: 0px;
 	}
 
-	#y2-four{
+	.y2-four{
 		position: absolute;
 		height: 20px;
 		width: 60px;
@@ -2418,7 +2610,7 @@
 	float: left;
 }
 
-	#z-one{
+	.z-one{
 		position: absolute;
 		height: 20px;
 		width: 100px;
@@ -2427,7 +2619,7 @@
 		left: 0px;
 	}
 
-	#z-two{
+	.z-two{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -2436,7 +2628,7 @@
 		right: 0px;
 	}
 
-	#z-three{
+	.z-three{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -2445,7 +2637,7 @@
 		right: 20px;
 	}
 
-	#z-four{
+	.z-four{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -2454,7 +2646,7 @@
 		right: 40px;
 	}
 
-	#z-five{
+	.z-five{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -2463,7 +2655,7 @@
 		left: 20px;
 	}
 
-	#z-six{
+	.z-six{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -2472,7 +2664,7 @@
 		left: 0px;
 	}
 
-	#z-seven{
+	.z-seven{
 		position: absolute;
 		height: 20px;
 		width: 100px;
@@ -2490,7 +2682,7 @@
 	float: left;
 }
 
-	#z2-one{
+	.z2-one{
 		position: absolute;
 		height: 20px;
 		width: 80px;
@@ -2499,7 +2691,7 @@
 		left: 0px;
 	}
 
-	#z2-two{
+	.z2-two{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -2508,7 +2700,7 @@
 		left: 40px;
 	}
 
-	#z2-three{
+	.z2-three{
 		position: absolute;
 		height: 20px;
 		width: 20px;
@@ -2517,7 +2709,7 @@
 		left: 20px;
 	}
 
-	#z2-four{
+	.z2-four{
 		position: absolute;
 		height: 20px;
 		width: 80px;
@@ -2535,7 +2727,7 @@
 	float: left;
 }
 	
-	#period-one{
+	.period-one{
 		position: absolute;
 		height: 20px;
 		width: 20px;
