@@ -1,3 +1,5 @@
+body{cursor: progress}
+
 .background{
 	position: absolute;
 	height: 100%;
@@ -927,7 +929,7 @@ div[class*='i'] {
 .i2 {
 	position: relative;
 	height: 140px;
-	width: 80px;
+	width: 20px;
 	background: black;
 	border: 10px solid black;
 	float: left;
@@ -1242,7 +1244,7 @@ div[class*='l'] {
 .l2 {
 	position: relative;
 	height: 140px;
-	width: 80px;
+	width: 20px;
 	background: black;
 	border: 10px solid black;
 	float: left;

@@ -1,0 +1,891 @@
+
+.background{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: white;
+	text-align: center;
+	padding: 20px;
+}
+
+.one{
+	position: relative;
+	display: inline-block;
+	height: 160px;
+	width: 380px;
+	margin: auto;
+}
+
+.two{
+	position: relative;
+	display: inline-block;
+	height: 160px;
+	width: 810px;
+	margin: auto;
+}
+
+.three{
+	position: relative;
+	display: inline-block;
+	height: 160px;
+	width: 670px;
+	margin: auto;
+}
+
+.blink{
+	position: relative;
+	display: inline-block;
+	height: 160px;
+	width: 380px;
+	margin: auto;
+ }
+
+.and{
+	display: inline-block;
+	position: relative;
+	height: 160px;
+	width: 300px;
+}
+
+.eye{
+	display: inline-block;
+	position: relative;
+	height: 100px;
+	width: 200px;
+}
+
+.you{
+	display: inline-block;
+	position: relative;
+	height: 160px;
+	width: 300px;
+}
+
+.miss{
+	display: inline-block;
+	position: relative;
+	height: 160px;
+	width: 360px;
+}
+
+.space{
+	display: inline-block;
+	position: relative;
+	height: 140px;
+	width: 60px;
+	background: white;
+	border: 10px solid white;
+}
+
+.me{
+	display: inline-block;
+	position: relative;
+	height: 160px;
+	width: 220px;
+}
+
+
+div[class*='a2-']:hover {
+	background: red;
+	transition: background 0s;
+}
+
+div[class*='a2-'] {
+	-webkit-transition: background 25s;
+	-moz-transition: background 25s;
+	-o-transition: background 25s;
+  	transition: background 25s;
+}
+
+.a2 {
+	position: relative;
+	height: 140px;
+	width: 80px;
+	background: white;
+	border: 10px solid white;
+	float: left;
+}
+	
+	.a2-one{
+		position: absolute;
+		height: 40px;
+		width: 20px;
+		background: white;
+		top: 80px;
+		left: 0px;
+	}
+
+	.a2-two{
+		position: absolute;
+		height: 20px;
+		width: 40px;
+		background: white;
+		top: 60px;
+		left: 20px;
+	}
+
+	.a2-three{
+		position: absolute;
+		height: 60px;
+		width: 20px;
+		background: white;
+		top: 80px;
+		left: 60px;
+	}
+
+	.a2-four{
+		position: absolute;
+		height: 20px;
+		width: 40px;
+		background: white;
+		top: 120px;
+		left: 20px;
+	}
+
+
+div[class*='b2-']:hover {
+	background: red;
+	transition: background 0s;
+}
+
+div[class*='b2-'] {
+	-webkit-transition: background 25s;
+	-moz-transition: background 25s;
+	-o-transition: background 25s;
+  	transition: background 25s;
+}
+
+.b2 {
+	position: relative;
+	height: 140px;
+	width: 80px;
+	background: white;
+	border: 10px solid white;
+	float: left;
+}
+
+	.b2-one{
+		position: absolute;
+		height: 140px;
+		width: 20px;
+		background: white;
+		top: 0px;
+		left: 0px;
+	}
+
+	.b2-two{
+		position: absolute;
+		height: 20px;
+		width: 40px;
+		background: white;
+		top: 60px;
+		left: 20px;
+	}
+
+	.b2-three{
+		position: absolute;
+		height: 40px;
+		width: 20px;
+		background: white;
+		top: 80px;
+		left: 60px;
+	}
+
+	.b2-four{
+		position: absolute;
+		height: 20px;
+		width: 40px;
+		background: white;
+		top: 120px;
+		left: 20px;
+	}
+
+div[class*='d2-']:hover {
+	background: red;
+	transition: background 0s;
+}
+
+div[class*='d2-'] {
+	-webkit-transition: background 25s;
+	-moz-transition: background 25s;
+	-o-transition: background 25s;
+  	transition: background 25s;
+}
+
+.d2 {
+	position: relative;
+	height: 140px;
+	width: 80px;
+	background: white;
+	border: 10px solid white;
+	float: left;
+}
+	
+	.d2-one{
+		position: absolute;
+		height: 40px;
+		width: 20px;
+		background: white;
+		top: 80px;
+		left: 0px;
+	}
+
+	.d2-two{
+		position: absolute;
+		height: 20px;
+		width: 40px;
+		background: white;
+		top: 60px;
+		left: 20px;
+	}
+
+	.d2-three{
+		position: absolute;
+		height: 140px;
+		width: 20px;
+		background: white;
+		top: 0px;
+		left: 60px;
+	}
+
+	.d2-four{
+		position: absolute;
+		height: 20px;
+		width: 40px;
+		background: white;
+		top: 120px;
+		left: 20px;
+	}
+
+div[class*='e2-']:hover {
+	background: red;
+	transition: background 0s;
+}
+
+div[class*='e2-'] {
+	-webkit-transition: background 25s;
+	-moz-transition: background 25s;
+	-o-transition: background 25s;
+  	transition: background 25s;
+}
+
+.e2 {
+	position: relative;
+	height: 140px;
+	width: 80px;
+	background: white;
+	border: 10px solid white;
+	float: left;
+}
+
+	.e2-one{
+		position: absolute;
+		height: 40px;
+		width: 20px;
+		background: white;
+		top: 80px;
+		left: 0px;
+	}
+
+	.e2-two{
+		position: absolute;
+		height: 20px;
+		width: 40px;
+		background: white;
+		top: 60px;
+		left: 20px;
+	}
+
+	.e2-three{
+		position: absolute;
+		height: 20px;
+		width: 40px;
+		background: white;
+		top: 120px;
+		left: 20px;
+	}
+
+	.e2-four{
+		position: absolute;
+		height: 20px;
+		width: 60px;
+		background: white;
+		top: 80px;
+		left: 20px;
+	}
+
+div[class*='i2-']:hover {
+	background: red;
+	transition: background 0s;
+}
+
+div[class*='i2-'] {
+	-webkit-transition: background 25s;
+	-moz-transition: background 25s;
+	-o-transition: background 25s;
+  	transition: background 25s;
+}
+
+.i2 {
+	position: relative;
+	height: 140px;
+	width: 20px;
+	background: white;
+	border: 10px solid white;
+	float: left;
+}
+
+	.i2-one{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		top: 20px;
+		left: 0px;
+	}
+
+	.i2-two{
+		position: absolute;
+		height: 80px;
+		width: 20px;
+		background: white;
+		top: 60px;
+		left: 0px;
+	}
+
+div[class*='k2-']:hover {
+	background: red;
+	transition: background 0s;
+}
+
+div[class*='k2-'] {
+	-webkit-transition: background 25s;
+	-moz-transition: background 25s;
+	-o-transition: background 25s;
+  	transition: background 25s;
+}
+
+.k2 {
+	position: relative;
+	height: 140px;
+	width: 80px;
+	background: white;
+	border: 10px solid white;
+	float: left;
+}
+
+	.k2-one{
+		position: absolute;
+		height: 140px;
+		width: 20px;
+		background: white;
+		top: 0px;
+		left: 0px;
+	}
+
+	.k2-two{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		top: 80px;
+		left: 20px;
+	}
+
+	.k2-three{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		top: 60px;
+		left: 40px;
+	}
+
+	.k2-four{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		top: 100px;
+		left: 40px;
+	}
+
+	.k2-five{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		top: 40px;
+		left: 60px;
+	}
+
+	.k2-six{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		bottom: 0px;
+		left: 60px;
+	}
+
+div[class*='l2-']:hover {
+	background: red;
+	transition: background 0s;
+}
+
+div[class*='l2-'] {
+	-webkit-transition: background 25s;
+	-moz-transition: background 25s;
+	-o-transition: background 25s;
+  	transition: background 25s;
+}
+
+.l2 {
+	position: relative;
+	height: 140px;
+	width: 20px;
+	background: white;
+	border: 10px solid white;
+	float: left;
+}
+
+	.l2-one{
+		position: absolute;
+		height: 140px;
+		width: 20px;
+		background: white;
+		top: 0px;
+		left: 0px;
+	}
+
+div[class*='m2-']:hover {
+	background: red;
+	transition: background 0s;
+}
+
+div[class*='m2-'] {
+	-webkit-transition: background 25s;
+	-moz-transition: background 25s;
+	-o-transition: background 25s;
+  	transition: background 25s;
+}
+
+.m2 {
+	position: relative;
+	height: 140px;
+	width: 100px;
+	background: white;
+	border: 10px solid white;
+	float: left;
+}
+
+	.m2-one{
+		position: absolute;
+		height: 60px;
+		width: 20px;
+		background: white;
+		top: 80px;
+		left: 0px;
+	}
+
+	.m2-two{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		top: 60px;
+		left: 20px;
+	}
+
+	.m2-three{
+		position: absolute;
+		height: 40px;
+		width: 20px;
+		background: white;
+		top: 80px;
+		left: 40px;
+	}
+
+	.m2-four{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		top: 60px;
+		left: 60px;
+	}
+	
+	.m2-five{
+		position: absolute;
+		height: 60px;
+		width: 20px;
+		background: white;
+		top: 80px;
+		left: 80px;
+	}
+
+div[class*='n2-']:hover {
+	background: red;
+	transition: background 0s;
+}
+
+div[class*='n2-'] {
+	-webkit-transition: background 25s;
+	-moz-transition: background 25s;
+	-o-transition: background 25s;
+  	transition: background 25s;
+}
+
+.n2 {
+	position: relative;
+	height: 140px;
+	width: 80px;
+	background: white;
+	border: 10px solid white;
+	float: left;
+}
+
+	.n2-one{
+		position: absolute;
+		height: 80px;
+		width: 20px;
+		background: white;
+		bottom: 0px;
+		left: 0px;
+	}
+
+	.n2-two{
+		position: absolute;
+		height: 20px;
+		width: 40px;
+		background: white;
+		top: 60px;
+		left: 20px;
+	}
+
+	.n2-three{
+		position: absolute;
+		height: 60px;
+		width: 20px;
+		background: white;
+		top: 80px;
+		left: 60px;
+	}
+
+div[class*='o2-']:hover {
+	background: red;
+	transition: background 0s;
+}
+
+div[class*='o2-'] {
+	-webkit-transition: background 25s;
+	-moz-transition: background 25s;
+	-o-transition: background 25s;
+  	transition: background 25s;
+}
+
+.o2{
+	position: relative;
+	height: 140px;
+	width: 80px;
+	background: white;
+	border: 10px solid white;
+	float: left;
+}
+
+	.o2-one{
+		position: absolute;
+		height: 40px;
+		width: 20px;
+		background: white;
+		top: 80px;
+		left: 0px;
+	}
+
+	.o2-two{
+		position: absolute;
+		height: 20px;
+		width: 40px;
+		background: white;
+		top: 60px;
+		left: 20px;
+	}
+
+	.o2-three{
+		position: absolute;
+		height: 20px;
+		width: 40px;
+		background: white;
+		top: 120px;
+		left: 20px;
+	}
+
+	.o2-four{
+		position: absolute;
+		height: 40px;
+		width: 20px;
+		background: white;
+		top: 80px;
+		left: 60px;
+	}
+
+div[class*='s2-']:hover {
+	background: red;
+	transition: background 0s;
+}
+
+div[class*='s2-'] {
+	-webkit-transition: background 25s;
+	-moz-transition: background 25s;
+	-o-transition: background 25s;
+  	transition: background 25s;
+}
+
+.s2{
+	position: relative;
+	height: 140px;
+	width: 80px;
+	background: white;
+	border: 10px solid white;
+	float: left;
+}
+
+	.s2-one{
+		position: absolute;
+		height: 20px;
+		width: 60px;
+		background: white;
+		top: 60px;
+		left: 20px;
+	}
+
+	.s2-two{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		top: 80px;
+		left: 20px;
+	}
+
+	.s2-three{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		top: 100px;
+		left: 40px;
+	}
+
+	.s2-four{
+		position: absolute;
+		height: 20px;
+		width: 60px;
+		background: white;
+		bottom: 0px;
+		left: 0px;
+	}
+
+div[class*='u2-']:hover {
+	background: red;
+	transition: background 0s;
+}
+
+div[class*='u2-'] {
+	-webkit-transition: background 25s;
+	-moz-transition: background 25s;
+	-o-transition: background 25s;
+  	transition: background 25s;
+}
+
+.u2{
+	position: relative;
+	height: 140px;
+	width: 80px;
+	background: white;
+	border: 10px solid white;
+	float: left;
+}
+
+	.u2-one{
+		position: absolute;
+		height: 60px;
+		width: 20px;
+		background: white;
+		top: 60px;
+		left: 0px;
+	}
+
+	.u2-two{
+		position: absolute;
+		height: 20px;
+		width: 40px;
+		background: white;
+		top: 120px;
+		left: 20px;
+	}
+
+	.u2-three{
+		position: absolute;
+		height: 60px;
+		width: 20px;
+		background: white;
+		top: 60px;
+		left: 60px;
+	}
+
+div[class*='y2-']:hover {
+	background: red;
+	transition: background 0s;
+}
+
+div[class*='y2-'] {
+	-webkit-transition: background 25s;
+	-moz-transition: background 25s;
+	-o-transition: background 25s;
+  	transition: background 25s;
+}
+
+.y2{
+	position: relative;
+	height: 140px;
+	width: 80px;
+	background: white;
+	border: 10px solid white;
+	float: left;
+}
+
+	.y2-one{
+		position: absolute;
+		height: 60px;
+		width: 20px;
+		background: white;
+		top: 20px;
+		left: 0px;
+	}
+
+	.y2-two{
+		position: absolute;
+		height: 20px;
+		width: 40px;
+		background: white;
+		top: 80px;
+		left: 20px;
+	}
+
+	.y2-three{
+		position: absolute;
+		height: 100px;
+		width: 20px;
+		background: white;
+		top: 20px;
+		right: 0px;
+	}
+
+	.y2-four{
+		position: absolute;
+		height: 20px;
+		width: 60px;
+		background: white;
+		bottom: 0px;
+		right: 0px;
+	}
+
+div[class*='.period']:hover {
+	background: red;
+	transition: background 0s;
+}
+
+div[class*='.period'] {
+	-webkit-transition: background 25s;
+	-moz-transition: background 25s;
+	-o-transition: background 25s;
+  	transition: background 25s;
+}
+
+.period{
+	position: relative;
+	height: 140px;
+	width: 80px;
+	background: white;
+	border: 10px solid white;
+	float: left;
+}
+	
+	.period-one{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		bottom: 0px;
+		left: 0px;
+	}
+
+
+.oval {
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	background: pink;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+}
+
+.iris {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 50px;
+	background: brown;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+.pupil {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 75px;
+	top: 25px;
+	background: black;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+}
+
+#ovalhov {
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	background: none;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+}
+
+#ovalhov:hover ~ #lid{
+	height: 100px;
+}
+
+#lid {
+	-webkit-transition: height .3s;
+	-moz-transition: height .3s;
+	-o-transition: height .3s;
+  	transition: height .3s;
+	position: absolute;
+	width: 200px;
+	height: 25px;
+	background: white;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+}
+
+
+
+
+
+
+
