@@ -1,8 +1,6 @@
-body{cursor: progress}
-
 .background{
 	position: absolute;
-	height: 100%;
+	height: 1400px;
 	width: 100%;
 	top: 0px;
 	left: 0px;
@@ -2723,7 +2721,7 @@ div[class*='p'] {
 .period{
 	position: relative;
 	height: 140px;
-	width: 80px;
+	width: 40px;
 	background: black;
 	border: 10px solid black;
 	float: left;
@@ -2738,12 +2736,751 @@ div[class*='p'] {
 		left: 0px;
 	}
 
+.pause{
+	position: relative;
+	height: 140px;
+	width: 40px;
+	background: black;
+	border: 10px solid black;
+	float: left;
+}
+	
+	.pause-one{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		bottom: 0px;
+		left: 0px;
+	}
+
+	.pause-two{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		bottom: 20px;
+		left: 20px;
+	}
 
 
+.colon{
+	position: relative;
+	height: 140px;
+	width: 40px;
+	background: black;
+	border: 10px solid black;
+	float: left;
+}
+
+	.colon-one{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		bottom: 20px;
+		left: 20px;
+	}
+
+	.colon-two{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		bottom: 60px;
+		left: 20px;
+	}
+
+.semi{
+	position: relative;
+	height: 140px;
+	width: 40px;
+	background: black;
+	border: 10px solid black;
+	float: left;
+}
+	
+	.semi-one{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		bottom: 0px;
+		left: 0px;
+	}
+
+	.semi-two{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		bottom: 20px;
+		left: 20px;
+	}
+
+	.semi-three{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		bottom: 60px;
+		left: 20px;
+	}
+
+.exclaim{
+	position: relative;
+	height: 140px;
+	width: 40px;
+	background: black;
+	border: 10px solid black;
+	float: left;
+}
+	
+	.exclaim-one{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		bottom: 0px;
+		left: 0px;
+	}
+
+	.exclaim-two{
+		position: absolute;
+		height: 80px;
+		width: 20px;
+		background: white;
+		bottom: 40px;
+		left: 0px;
+	}
 
 
+.number0 {
+	position: relative;
+	height: 140px;
+	width: 100px;
+	background: black;
+	border: 10px solid black;
+	float: left;
+}
+	
+	.number0-one{
+		position: absolute;
+		height: 100px;
+		width: 20px;
+		background: white;
+		top: 20px;
+		left: 0px;
+	}
 
+	.number0-two{
+		position: absolute;
+		height: 20px;
+		width: 60px;
+		background: white;
+		top: 120px;
+		left: 20px;
+	}
 
+	.number0-three{
+		position: absolute;
+		height: 20px;
+		width: 60px;
+		background: white;
+		top: 0px;
+		left: 20px;
+	}
 
+	.number0-four{
+		position: absolute;
+		height: 100px;
+		width: 20px;
+		background: white;
+		top: 20px;
+		left: 80px;
+	}
 
+.number1 {
+	position: relative;
+	height: 140px;
+	width: 40px;
+	background: black;
+	border: 10px solid black;
+	float: left;
+}
+	
+	.number1-one{
+		position: absolute;
+		height: 140px;
+		width: 20px;
+		background: white;
+		top: 0px;
+		right: 0px;
+	}
 
+	.number1-two{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		top: 20px;
+		right: 20px;
+	}
+
+.number2 {
+	position: relative;
+	height: 140px;
+	width: 100px;
+	background: black;
+	border: 10px solid black;
+	float: left;
+}
+
+	.number2-one{
+		position: absolute;
+		height: 20px;
+		width: 60px;
+		background: white;
+		top: 0px;
+		left: 20px;
+	}
+
+	.number2-two{
+		position: absolute;
+		height: 40px;
+		width: 20px;
+		background: white;
+		top: 20px;
+		left: 0px;
+	}
+
+	.number2-three{
+		position: absolute;
+		height: 40px;
+		width: 20px;
+		background: white;
+		top: 20px;
+		right: 0px;
+	}
+
+	.number2-four{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		top: 60px;
+		right: 20px;
+	}
+
+	.number2-five{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		bottom: 40px;
+		right: 40px;
+	}
+
+	.number2-six{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		bottom: 20px;
+		right: 60px;
+	}
+
+	.number2-seven{
+		position: absolute;
+		height: 20px;
+		width: 100px;
+		background: white;
+		bottom: 0px;
+		left: 0px;
+	}
+
+.number3 {
+	position: relative;
+	height: 140px;
+	width: 100px;
+	background: black;
+	border: 10px solid black;
+	float: left;
+}
+
+	.number3-one{
+		position: absolute;
+		height: 20px;
+		width: 60px;
+		background: white;
+		top: 0px;
+		left: 20px;
+	}
+
+	.number3-two{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		top: 20px;
+		left: 0px;
+	}
+
+	.number3-three{
+		position: absolute;
+		height: 40px;
+		width: 20px;
+		background: white;
+		top: 20px;
+		right: 0px;
+	}
+
+	.number3-four{
+		position: absolute;
+		height: 20px;
+		width: 40px;
+		background: white;
+		top: 60px;
+		right: 20px;
+	}
+
+	.number3-five{
+		position: absolute;
+		height: 40px;
+		width: 20px;
+		background: white;
+		bottom: 20px;
+		right: 0px;
+	}
+
+	.number3-six{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		bottom: 20px;
+		left: 0px;
+	}
+
+	.number3-seven{
+		position: absolute;
+		height: 20px;
+		width: 60px;
+		background: white;
+		bottom: 0px;
+		left: 20px;
+	}
+
+.number4 {
+	position: relative;
+	height: 140px;
+	width: 100px;
+	background: black;
+	border: 10px solid black;
+	float: left;
+}
+
+	.number4-one{
+		position: absolute;
+		height: 140px;
+		width: 20px;
+		background: white;
+		top: 0px;
+		right: 0px;
+	}
+
+	.number4-two{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		top: 0px;
+		right: 20px;
+	}
+
+	.number4-three{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		top: 20px;
+		right: 40px;
+	}
+
+	.number4-four{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		top: 40px;
+		right: 60px;
+	}
+
+	.number4-five{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		top: 60px;
+		right: 80px;
+	}
+
+	.number4-six{
+		position: absolute;
+		height: 20px;
+		width: 80px;
+		background: white;
+		bottom: 40px;
+		left: 0px;
+	}
+
+.number5 {
+	position: relative;
+	height: 140px;
+	width: 100px;
+	background: black;
+	border: 10px solid black;
+	float: left;
+}
+
+	.number5-one{
+		position: absolute;
+		height: 20px;
+		width: 100px;
+		background: white;
+		top: 0px;
+		right: 0px;
+	}
+
+	.number5-two{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		top: 20px;
+		left: 0px;
+	}
+
+	.number5-three{
+		position: absolute;
+		height: 20px;
+		width: 80px;
+		background: white;
+		top: 40px;
+		right: 20px;
+	}
+
+	.number5-four{
+		position: absolute;
+		height: 60px;
+		width: 20px;
+		background: white;
+		bottom: 20px;
+		right: 0px;
+	}
+
+	.number5-five{
+		position: absolute;
+		height: 20px;
+		width: 60px;
+		background: white;
+		bottom: 0px;
+		right: 20px;
+	}
+
+	.number5-six{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		bottom: 20px;
+		left: 0px;
+	}
+
+.number6 {
+	position: relative;
+	height: 140px;
+	width: 100px;
+	background: black;
+	border: 10px solid black;
+	float: left;
+}
+
+	.number6-one{
+		position: absolute;
+		height: 20px;
+		width: 40px;
+		background: white;
+		top: 0px;
+		right: 20px;
+	}
+
+	.number6-two{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		top: 20px;
+		left: 20px;
+	}
+
+	.number6-three{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		top: 20px;
+		right: 0px;
+	}
+
+	.number6-four{
+		position: absolute;
+		height: 20px;
+		width: 60px;
+		background: white;
+		top: 60px;
+		left: 20px;
+	}
+
+	.number6-five{
+		position: absolute;
+		height: 20px;
+		width: 60px;
+		background: white;
+		bottom: 0px;
+		right: 20px;
+	}
+
+	.number6-six{
+		position: absolute;
+		height: 80px;
+		width: 20px;
+		background: white;
+		bottom: 20px;
+		left: 0px;
+	}
+
+	.number6-seven{
+		position: absolute;
+		height: 40px;
+		width: 20px;
+		background: white;
+		bottom: 20px;
+		right: 0px;
+	}
+
+.number7 {
+	position: relative;
+	height: 140px;
+	width: 100px;
+	background: black;
+	border: 10px solid black;
+	float: left;
+}
+
+	.number7-one{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		top: 20px;
+		left: 0px;
+	}
+
+	.number7-two{
+		position: absolute;
+		height: 20px;
+		width: 100px;
+		background: white;
+		top: 0px;
+		left: 0px;
+	}
+
+	.number7-three{
+		position: absolute;
+		height: 40px;
+		width: 20px;
+		background: white;
+		top: 20px;
+		right: 0px;
+	}
+
+	.number7-four{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		top: 60px;
+		right: 20px;
+	}
+
+	.number7-five{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		top: 80px;
+		right: 40px;
+	}
+
+	.number7-six{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		bottom: 20px;
+		left: 20px;
+	}
+
+	.number7-seven{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		bottom: 0px;
+		left: 0px;
+	}
+
+.number8 {
+	position: relative;
+	height: 140px;
+	width: 100px;
+	background: black;
+	border: 10px solid black;
+	float: left;
+}
+
+	.number8-one{
+		position: absolute;
+		height: 20px;
+		width: 60px;
+		background: white;
+		top: 0px;
+		left: 20px;
+	}
+
+	.number8-two{
+		position: absolute;
+		height: 40px;
+		width: 20px;
+		background: white;
+		top: 20px;
+		left: 0px;
+	}
+
+	.number8-three{
+		position: absolute;
+		height: 40px;
+		width: 20px;
+		background: white;
+		top: 20px;
+		right: 0px;
+	}
+
+	.number8-four{
+		position: absolute;
+		height: 20px;
+		width: 60px;
+		background: white;
+		top: 60px;
+		right: 20px;
+	}
+
+	.number8-five{
+		position: absolute;
+		height: 40px;
+		width: 20px;
+		background: white;
+		bottom: 20px;
+		right: 0px;
+	}
+
+	.number8-six{
+		position: absolute;
+		height: 40px;
+		width: 20px;
+		background: white;
+		bottom: 20px;
+		left: 0px;
+	}
+
+	.number8-seven{
+		position: absolute;
+		height: 20px;
+		width: 60px;
+		background: white;
+		bottom: 0px;
+		left: 20px;
+	}
+
+.number9 {
+	position: relative;
+	height: 140px;
+	width: 100px;
+	background: black;
+	border: 10px solid black;
+	float: left;
+}
+
+	.number9-one{
+		position: absolute;
+		height: 20px;
+		width: 60px;
+		background: white;
+		top: 0px;
+		left: 20px;
+	}
+
+	.number9-two{
+		position: absolute;
+		height: 40px;
+		width: 20px;
+		background: white;
+		top: 20px;
+		left: 0px;
+	}
+
+	.number9-three{
+		position: absolute;
+		height: 80px;
+		width: 20px;
+		background: white;
+		top: 20px;
+		right: 0px;
+	}
+
+	.number9-four{
+		position: absolute;
+		height: 20px;
+		width: 60px;
+		background: white;
+		top: 60px;
+		right: 20px;
+	}
+
+	.number9-five{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		bottom: 20px;
+		right: 20px;
+	}
+
+	.number9-six{
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background: white;
+		bottom: 20px;
+		left: 0px;
+	}
+
+	.number9-seven{
+		position: absolute;
+		height: 20px;
+		width: 40px;
+		background: white;
+		bottom: 0px;
+		left: 20px;
+	}
